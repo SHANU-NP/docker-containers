@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: reasearchAndDevelopment
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/j2
+    username: postgres
+    password: root
+    driverClassName: org.postgresql.Driver
+
+server:
+  port: 8080
