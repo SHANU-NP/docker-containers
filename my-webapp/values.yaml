@@ -1,0 +1,7 @@
+appName : my-webapp
+service:
+  name: my-webapp-service
+replicas:
+  count : 3
+image: 
+  name: shanunp/my-app:1.0

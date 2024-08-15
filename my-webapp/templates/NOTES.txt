@@ -1,0 +1,21 @@
+1. Get the application URL by running these commands:
+
+helm installation and deployemnt of backend app
+-----
+
+helm ls -A
+
+helm install my-webapp-relase my-webapp/
+
+helm upgrade
+----------
+
+helm upgrade my-webapp-realse my-webapp/ --values my-webapp/values.yaml
+
+helm install for particular namespace with particular values-env.yaml file
+--------
+
+helm install <release-name-env> chart-name/ --values chart-name/values.yaml -f chart-name/values-dev.yaml -n dev
+
+
+
